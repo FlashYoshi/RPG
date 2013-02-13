@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Level1>
+  <Obstacles type="Tree" i="11" j="2" />
+  <Obstacles type="Tree" i="11" j="3" />
+  <Obstacles type="Tree" i="12" j="2" />
+  <Background type="Grass" i="10" j="1" />
+  <Background type="Grass" i="10" j="2" />
+  <Background type="Sand" i="10" j="3" />
+  <Background type="Grass" i="11" j="1" />
+  <Background type="Sand" i="11" j="2" />
+  <Background type="Sand" i="11" j="3" />
+  <Background type="Sand" i="12" j="2" />
+  <Background type="Sand" i="12" j="3" />
+  <Background type="Sand" i="13" j="2" />
+  <Background type="Sand" i="13" j="3" />
+</Level1>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Level1>
+  <Obstacles type="Tree" i="11" j="1" />
+  <Obstacles type="Tree" i="12" j="1" />
+  <Background type="Grass" i="11" j="1" />
+  <Background type="Sand" i="12" j="1" />
+  <Background type="Sand" i="13" j="1" />
+</Level1>
+
