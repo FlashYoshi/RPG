@@ -52,7 +52,7 @@ public abstract class Game implements KeyListener, MouseListener, MouseMotionLis
         starting = true;
         width = 1000;
         height = 700;
-        title = "GameEngine v1.6 \u00a9 Titouan Vervack & Bart Middag";
+        title = "GameEngine v1.6 \u00a9 Titouan Vervack";
         window.setTitle(title);
         delay = 100;
         System.gc();
