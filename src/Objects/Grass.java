@@ -15,8 +15,8 @@ public class Grass extends Backgrounds {
 
     public Grass() {
         super(HBLOCKS, VBLOCKS);
-        icon = new ImageIcon(Grass.class.getResource("../images/Grass1.png"));
-        image = new ImageIcon(Grass.class.getResource("../images/Grass1.png")).getImage();
+        //icon = new ImageIcon(Grass.class.getResource("../images/Grass1.png"));
+        //image = new ImageIcon(Grass.class.getResource("../images/Grass1.png")).getImage();
     }
 
     @Override

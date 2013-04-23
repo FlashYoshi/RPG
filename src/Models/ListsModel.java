@@ -13,7 +13,7 @@ public class ListsModel {
 
     private ObjectsFactory fact = new ObjectsFactory();
     //Don't forget Factory
-    private String[] blocks = {"grass", "sand", "tree"};
+    private String[] blocks = {"sand", "tree"};
     private Icon[] icons = new Icon[blocks.length];
     private Object[] objects;
     private Image toDraw = null;
@@ -41,7 +41,7 @@ public class ListsModel {
     public Object[] getObjects() {
         return objects;
     }
-    
+
     public void setToDraw(Image toDraw) {
         this.toDraw = toDraw;
     }
@@ -49,11 +49,11 @@ public class ListsModel {
     public Image getToDraw() {
         return toDraw;
     }
-    
+
     public ObjectsFactory getObjectsFactory(){
         return fact;
     }
-    
+
     public Blocks getSelected(){
         return selected;
     }
