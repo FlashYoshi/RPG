@@ -15,7 +15,7 @@ public abstract class Game implements KeyListener, MouseListener, MouseMotionLis
     //Top/Bottom GUI = 38 pixels
     private int height = 720;
     private int delay = 100;
-    private String title = "GameEngine v1.6 \u00a9 Titouan Vervack & Bart Middag";
+    private String title = "GameEngine v1.6 \u00a9 Titouan Vervack";
     private boolean paused = false;
     private boolean over = false;
     private boolean won = false;
