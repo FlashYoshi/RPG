@@ -38,7 +38,7 @@ public class XMLReader {
                 map.addObstacle(x, y, (Obstacles) obs);
                 obs.setXY(x * Game.TILESIZE, y * Game.TILESIZE);
             }
-            
+
             for (int i = 0; i < backgrounds.size(); i++) {
                 Element el = (Element) backgrounds.get(i);
                 String type = el.getAttributeValue("type");
@@ -48,7 +48,7 @@ public class XMLReader {
                 map.addBackground(x, y, (Backgrounds) bk);
                 bk.setXY(x * Game.TILESIZE, y * Game.TILESIZE);
             }
-            
+
             for (int i = 0; i < seas.size(); i++) {
                 Element el = (Element) seas.get(i);
                 String type = el.getAttributeValue("type");
@@ -58,7 +58,7 @@ public class XMLReader {
                 map.addSea(x, y, (Sea) sea);
                 sea.setXY(x * Game.TILESIZE, y * Game.TILESIZE);
             }
-            
+
         } catch (JDOMException | IOException ex) {
             Logger.getLogger(XMLReader.class.getName()).log(Level.SEVERE, null, ex);
         }
